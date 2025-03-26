@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Diseases</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="crop.html">Crop Management</a></li>
+                <li><a href="soil.html">Soil Management</a></li>
+                <li><a href="disease.html">Crop Diseases</a></li>
+                <li><a href="solution.html">Solutions</a></li>
+                <li><a href="credit.html">Credits</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content-container disease-container">
+            <h1>Crop Disease Management</h1>
+            
+            <div class="disease-intro">
+                <p>Early identification and proper management of crop diseases can save entire harvests. Below are common diseases categorized by pathogen type.</p>
+            </div>
+            
+            <div class="disease-categories">
+                <div class="category fungal">
+                    <h2>🦠 Fungal Diseases</h2>
+                    <div class="disease-card">
+                        <h3>Powdery Mildew</h3>
+                        <p><strong>Symptoms:</strong> White powdery spots on leaves</p>
+                        <p><strong>Affects:</strong> Cucurbits, grapes, roses</p>
+                    </div>
+                    <div class="disease-card">
+                        <h3>Late Blight</h3>
+                        <p><strong>Symptoms:</strong> Water-soaked lesions on leaves</p>
+                        <p><strong>Affects:</strong> Tomatoes, potatoes</p>
+                    </div>
+                </div>
+                
+                <div class="category bacterial">
+                    <h2>🧫 Bacterial Diseases</h2>
+                    <div class="disease-card">
+                        <h3>Bacterial Wilt</h3>
+                        <p><strong>Symptoms:</strong> Sudden wilting, sticky ooze</p>
+                        <p><strong>Affects:</strong> Cucumbers, tomatoes</p>
+                    </div>
+                </div>
+                
+                <div class="category viral">
+                    <h2>🦠 Viral Diseases</h2>
+                    <div class="disease-card">
+                        <h3>Mosaic Viruses</h3>
+                        <p><strong>Symptoms:</strong> Mottled leaves, stunted growth</p>
+                        <p><strong>Affects:</strong> Tobacco, tomatoes, cucumbers</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="prevention-section">
+                <h2>Prevention Strategies</h2>
+                <ul class="prevention-list">
+                    <li>Use disease-resistant varieties</li>
+                    <li>Practice crop rotation</li>
+                    <li>Ensure proper spacing for air circulation</li>
+                    <li>Water at soil level (avoid wetting leaves)</li>
+                    <li>Sanitize tools regularly</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
